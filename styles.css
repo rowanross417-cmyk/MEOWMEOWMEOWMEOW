@@ -14,7 +14,7 @@ div.background-img {
 div.grid {
     margin: 20px;
     display: grid;
-    grid-auto-columns: repeat(3, lfr);
+    grid-template-columns: repeat(3, lfr);
     grid-auto-rows; repeat(3, lfr);
     gap: 10px;
 }
