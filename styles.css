@@ -1,0 +1,46 @@
+body {
+    font-family: "Comic Relief", sans-serif;
+    color: pink;
+}
+div.container {
+margin: 2em;
+}
+div.background-img {
+    background-image: url("https://i.pinimg.com/736x/00/f0/75/00f075528a340d90a5eb187d3ece2a54.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+}
+div.grid {
+    margin: 20px;
+    display: grid;
+    grid-auto-columns: repeat(3, lfr);
+    grid-auto-rows; repeat(3, lfr);
+    gap: 10px;
+}
+div.items {
+    border-width: 2px;
+    background-image: url("https://i.pinimg.com/736x/00/f0/75/00f075528a340d90a5eb187d3ece2a54.jpg");
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    width: 30%;
+}
+
+img.background {
+
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.7rem;
+    padding: 5px;
+}
